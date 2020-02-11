@@ -54,6 +54,12 @@ chicken_coco.collect_eggs()
 chicken_coco.get_voice()
 name_by_weight[chicken_coco.weight] = chicken_coco.name
 
+chicken_Kukareku = birds("Кукареку", "Ко-ко", 3)
+chicken_Kukareku.feeding()
+chicken_Kukareku.collect_eggs()
+chicken_Kukareku.get_voice()
+name_by_weight[chicken_coco.weight] = chicken_coco.name
+
 duck_quack = birds("Кряква", 'Кря-кря', 4)
 duck_quack.feeding()
 duck_quack.collect_eggs()
